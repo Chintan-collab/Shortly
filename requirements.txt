@@ -1,5 +1,8 @@
 pandas
 matplotlib
 seaborn
+beautifulsoup4
 jupyter
--e .
+transformers
+torch
+#-e .
