@@ -1,6 +1,7 @@
 class requestFileInformation(object):
-    def __init__(self):
-        self.url=''
+    def __init__(self,url):
+        self.url=url
+        self.type='URL'
         self.text=''
         self.preprocessed_text=''
         self.type_of_input=''

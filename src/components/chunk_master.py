@@ -1,5 +1,5 @@
-from utils import sentence_seperator
-
+from src.utils import sentence_seperator
+from src.logger import logging
 def chunk_creator(text):
     max_chunk_count = 500
     current_chunk_count = 0
@@ -17,7 +17,7 @@ def chunk_creator(text):
         else:
             chunks_list.append(sentence.split(' '))
 
-    for chunks in chunks_list:
+    for chunks in range(len(chunks_list)):
         chunks_list[chunks] = ' '.join(chunks_list[chunks])
-
+    logging.info("\n Chunk List -. %s",chunks_list)
     return chunks_list
