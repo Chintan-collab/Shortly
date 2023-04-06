@@ -5,4 +5,5 @@ beautifulsoup4
 jupyter
 transformers
 torch
+youtube_transcript_api
 #-e .

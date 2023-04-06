@@ -4,7 +4,7 @@ from src.components import chunk_master as cm
 from src.components.model_predictor import predictor
 from src.logger import logging
 
-response_object = requestFileInformation('https://www.scribbr.com/statistics/simple-linear-regression/')
+response_object = requestFileInformation('https://www.youtube.com/watch?v=6MI0f6YjJIk')
 
 def summarizer(response_object):
     print("Enter Validation!")
